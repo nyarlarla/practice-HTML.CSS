@@ -17,7 +17,7 @@ main{
 
 .step{
 	width:50px;
-	height:30px;
+	height:30PX;
 	background-color:orange;
 	color:white;
 	text-align:center;
@@ -80,6 +80,7 @@ main{
 	.main-contents{
 		float:none;
 		margin:0 auto;
+		width:90%;
 	}
 
 	.main-contents:nth-child(2){
@@ -87,22 +88,26 @@ main{
 	}
 
 	.main-item{
-		width:90%;
+		width:100%;
 	}
 
 	.main-img1{
-	   width:97%;
-	   padding:10px 1.5%;
+	   width:98%;
+	   padding:2% 1%;
    }
 
 
    .main-img2{
-	   width:97%;
-	   padding:10px 1.5%;
+	   width:98%;
+	   padding:2% 1%;
    }
 
    .main-img3{
-	   width:97%;
-	   padding:10px 1.5%;
+	   width:98%;
+	   padding:2% 1%;
+	}
+
+	.main-text{
+		padding:1%;
 	}
 }
